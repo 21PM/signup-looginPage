@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div id="signup-container">
+            <centre><h1>Sign Up!</h1></centre>
+        <form action="index2.html" method="post" onsubmit="return StoreUserDetailsInLocalStorage()"> 
+            
+            <input type="text"  placeholder="Enter your First Name" id="Fname" required><br/>
+            <input type="text"  placeholder="Enter your Last Name" id="Lname" required><br/>
+            <input type="email" placeholder="Enter your Email Address" id="email" required><br/>
+            <input type="password" placeholder="Enter your Password" id="pwd" required><br>    
+            <input type="password" placeholder="Confirm Password" id="cnfm-pwd" required><br>    
+
+
+            <input  type="submit" value="Submit" id="signup-button"></input>
+            <!-- <button id="signup-button">Sign up</button> -->
+            <!-- <a href="#" onclick="" >Login</a> -->
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
